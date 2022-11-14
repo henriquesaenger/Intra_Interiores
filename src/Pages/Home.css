@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.container_home {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Texto-home {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../imagens/design-interior.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-mask-image: linear-gradient(black, 90%, transparent);
+  mask-image: linear-gradient(black, 90%, transparent);
+  min-height: 1000px;
+  justify-content: center;
+  color: #CAD2C5;
+  text-shadow: #1E1E2C 2px 2px;
+}
+.Texto-home p {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.vantagens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  min-height: 800px;
+  background-image: url("../imagens/design-interior2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-mask-image: linear-gradient(to top, transparent, black, 95%, transparent);
+  mask-image: linear-gradient(to top, transparent, black, 95%, transparent);
+}
+
+.industrial {
+  display: flex;
+  flex-direction: column;
+  min-height: 800px;
+  background-image: url("../imagens/design-interior3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-mask-image: linear-gradient(to top, transparent, black, 95%, transparent);
+  mask-image: linear-gradient(to top, transparent, black, 95%, transparent);
+}
+
+.agendamento {
+  background-image: url("../imagens/design-interior4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-mask-image: linear-gradient(to top, black, 90%, transparent);
+  mask-image: linear-gradient(to top, black, 90%, transparent);
+  min-height: 800px;
+}/*# sourceMappingURL=Home.css.map */

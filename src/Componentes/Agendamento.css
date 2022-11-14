@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.agendamento {
+  display: flex;
+  flex-direction: column;
+}
+.agendamento h2 {
+  margin-top: 320px;
+  color: #CAD2C5;
+  text-shadow: #1E1E2C 2px 2px;
+}
+
+.did-floating-label-content {
+  position: relative;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.did-floating-label {
+  color: #52796F;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 15px;
+  padding: 0 10px;
+  background: #CAD2C5;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.did-floating-input {
+  font-size: 17px;
+  display: block;
+  width: 70%;
+  height: 36px;
+  padding: 0 20px;
+  background: #CAD2C5;
+  color: #354F52;
+  border: 1px solid #354F52;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.did-floating-input:focus {
+  outline: none;
+}
+.did-floating-input:focus ~ .did-floating-label {
+  top: -8px;
+  font-size: 13px;
+}
+
+.did-floating-input:not(:-moz-placeholder-shown) ~ .did-floating-label {
+  top: -8px;
+  font-size: 13px;
+}
+
+.did-floating-input:not(:-ms-input-placeholder) ~ .did-floating-label {
+  top: -8px;
+  font-size: 13px;
+}
+
+.did-floating-input:not(:placeholder-shown) ~ .did-floating-label {
+  top: -8px;
+  font-size: 13px;
+}
+
+.did-floating-label {
+  top: 11px;
+  font-size: 13px;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.botao_avancar {
+  color: #354F52;
+  background-color: #84A98C;
+  font-size: 17px;
+  height: 36px;
+  font-weight: bolder;
+  padding: 6px 17px;
+  border: 1px solid #354F52;
+  border-radius: 4px;
+}
+
+.botao_avancar:hover {
+  color: #84A98C;
+  background-color: #354F52;
+}/*# sourceMappingURL=Agendamento.css.map */

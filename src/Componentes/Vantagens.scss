@@ -1,0 +1,15 @@
+@use "../Variaveis/Variaveis.scss" as variaveis;
+
+
+.caixa-urban-jungle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 18%;
+    color: variaveis.$energyStyle1;
+    text-shadow: variaveis.$black 2px 2px;
+    p{
+        font-weight: bold;
+        font-size: variaveis.$tamanho;
+    }
+}

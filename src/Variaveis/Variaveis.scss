@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/// IMAGENS
+$interior: url("../imagens/design-interior.jpg"); 
+$interior_Urban_Jungle: url("../imagens/design-interior2.jpg");
+$interior_industrial: url("../imagens/design-interior3.jpg");
+$interior_agendamento: url("../imagens/design-interior4.jpg");
+
+
+
+/// CORES
+
+$black: #1E1E2C;
+$white: white;
+$energyStyle1: #CAD2C5;
+$energyStyle2: #84A98C;
+$energyStyle3: #52796F;
+$energyStyle4: #354F52;
+
+/// FONTS
+
+$logo: "Dancing Script", sans-serif;
+$tamanho: 17px;
+
+
+
+/// SINGULAR STYLES
+
+/// Style for faded background images
+@mixin backgroundimagefade($direction){
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center center;
+    @if $direction == "imgbottom"{
+        -webkit-mask-image: linear-gradient(black, 90%, transparent);
+        mask-image: linear-gradient(black, 90%, transparent);
+    }
+    @else if $direction == "imgtop"{
+        -webkit-mask-image: linear-gradient(to top, black, 90%, transparent);
+        mask-image: linear-gradient(to top, black, 90%, transparent);
+    }
+    @else if $direction == "imgboth"{
+        -webkit-mask-image: linear-gradient(to top, transparent, black, 95%, transparent);
+        mask-image: linear-gradient(to top, transparent, black, 95%, transparent);
+        
+    }
+    
+}

@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.caixa-industrial {
+  text-align: start;
+  padding-left: 50px;
+  padding-top: 100px;
+  width: 85%;
+  color: #CAD2C5;
+  text-shadow: #1E1E2C 2px 2px;
+}
+.caixa-industrial p {
+  font-size: 17px;
+  font-weight: bold;
+}/*# sourceMappingURL=Industrial.css.map */

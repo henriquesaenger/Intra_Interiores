@@ -1,0 +1,17 @@
+@use "../Variaveis/Variaveis.scss" as variaveis;
+
+
+
+.caixa-industrial{
+    text-align: start;
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 85%;
+    color: variaveis.$energyStyle1;
+    text-shadow: variaveis.$black 2px 2px;
+    p{
+        font-size: variaveis.$tamanho;
+        font-weight: bold;
+
+    }
+}
