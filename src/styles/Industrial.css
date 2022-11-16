@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.caixa-texto-industrial {
+  text-align: start;
+  padding-left: 50px;
+  padding-top: 100px;
+  width: 85%;
+  color: #CAD2C5;
+  text-shadow: #1E1E2C 2px 2px;
+}
+.caixa-texto-industrial p {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.industrial-caracteristicas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.industrial-card {
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+  height: 250px;
+  background-color: #52796F;
+  border-radius: 8px;
+  margin: 30px;
+}
+.industrial-card p {
+  font-size: 17px;
+  font-weight: bold;
+  color: #CAD2C5;
+  text-align: center;
+}
+.industrial-card img {
+  width: 75%;
+  height: 75%;
+  align-self: center;
+  padding: 20px;
+}
+
+.paleta {
+  height: 75%;
+  width: 75%;
+  align-self: center;
+  -webkit-animation: bgcolorchange 10s infinite; /* Chrome, Safari, Opera */
+  animation: 10s infinite bgcolorchange;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+@keyframes bgcolorchange {
+  0% {
+    background-color: #d9d6cd;
+  }
+  25% {
+    background-color: #7b7b7b;
+  }
+  50% {
+    background-color: #95431e;
+  }
+  75% {
+    background-color: #4d565b;
+  }
+  100% {
+    background-color: #211d1a;
+  }
+}
+@-webkit-keyframes bgcolorchange {
+  0% {
+    background: #d9d6cd;
+  }
+  25% {
+    background: #7b7b7b;
+  }
+  50% {
+    background: #95431e;
+  }
+  75% {
+    background: #4d565b;
+  }
+  100% {
+    background: #211d1a;
+  }
+}/*# sourceMappingURL=Industrial.css.map */

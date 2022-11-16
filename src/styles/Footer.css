@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 200px;
+  background-color: #52796F;
+}
+
+.first-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+}
+.first-column button {
+  margin: 10px;
+  border: none;
+  font-size: 17px;
+  color: #354F52;
+  background-color: transparent;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.second-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+}
+.second-column a {
+  text-decoration: none;
+  margin: 10px;
+  border: none;
+  font-size: 17px;
+  color: #354F52;
+  background-color: transparent;
+  font-weight: bolder;
+  cursor: pointer;
+}/*# sourceMappingURL=Footer.css.map */

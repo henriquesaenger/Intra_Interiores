@@ -1,0 +1,84 @@
+@use "../Variaveis/Variaveis.scss" as variaveis;
+
+
+
+.caixa-texto-industrial{
+    text-align: start;
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 85%;
+    color: variaveis.$energyStyle1;
+    text-shadow: variaveis.$black 2px 2px;
+    p{
+        font-size: variaveis.$tamanho;
+        font-weight: bold;
+
+    }
+}
+
+
+.industrial-caracteristicas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.industrial-card{
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    height: 250px;
+    background-color: variaveis.$energyStyle3;
+    border-radius: 8px;
+    margin: 30px;
+    p{
+        font-size: variaveis.$tamanho;
+        font-weight: bold;
+        color: variaveis.$energyStyle1;
+        text-align: center;
+    }
+
+    img{
+        width: 75%;
+        height: 75%;
+        align-self: center;
+        padding: 20px;
+    }
+}
+
+.paleta{
+    height: 75%;
+    width: 75%;
+    align-self: center;
+    -webkit-animation: bgcolorchange 10s infinite; /* Chrome, Safari, Opera */ 
+    animation: 10s infinite bgcolorchange;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+@keyframes bgcolorchange {
+    0% {
+      background-color: #d9d6cd;
+    }
+    25% {
+      background-color: #7b7b7b;
+    }
+    50% {
+      background-color: #95431e;
+    }
+    75% {
+      background-color: #4d565b;
+    }
+    100% {
+      background-color: #211d1a;
+    }
+  }
+
+  @-webkit-keyframes bgcolorchange {
+    0%   {background: #d9d6cd;}
+    25%  {background: #7b7b7b;}
+    50%  {background: #95431e;}
+    75%  {background: #4d565b;}
+    100% {background: #211d1a;}
+}

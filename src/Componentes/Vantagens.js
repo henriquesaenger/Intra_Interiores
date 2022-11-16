@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import "./Vantagens.css";
+import "../styles/Vantagens.css";
 
 
 const Vantagens = () => {

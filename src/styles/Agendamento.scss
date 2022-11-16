@@ -1,0 +1,84 @@
+@use "../Variaveis/Variaveis.scss" as variaveis;
+
+.agendamento{
+    display: flex;
+    flex-direction: column;
+    
+
+    h2{
+        margin-top: 320px;
+        color: variaveis.$energyStyle1;
+        text-shadow: variaveis.$black 2px 2px;
+    }
+    
+}
+
+.did-floating-label-content { 
+    position:relative;
+    margin-bottom:20px; 
+    width: 30%;
+  }
+  .did-floating-label {
+    color: variaveis.$energyStyle3; 
+    font-size:variaveis.$tamanho;
+    border-radius: 6px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:15px;
+    padding:0 10px;
+    background: variaveis.$energyStyle1;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  .did-floating-input{
+    font-size: variaveis.$tamanho;
+    display:block;
+    width:70%;
+    height:36px;
+    padding: 0 20px;
+    background: variaveis.$energyStyle1;
+    color: variaveis.$energyStyle4;
+    border: 1px solid variaveis.$energyStyle4;
+    border-radius: 4px;
+    box-sizing: border-box;
+    &:focus{
+      outline:none;
+      ~ .did-floating-label{
+        top:-8px;
+        font-size:13px;
+      }
+    }
+  }
+  
+  .did-floating-input:not(:placeholder-shown) ~ .did-floating-label {
+    top:-8px;
+    font-size:13px;
+  }
+  .did-floating-label {
+    top:11px;
+    font-size:13px;
+  }
+
+  .container-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+  .botao_avancar{
+    color: variaveis.$energyStyle4;
+    background-color: variaveis.$energyStyle2;
+    font-size: variaveis.$tamanho;
+    height: 36px;
+    font-weight: bolder;
+    padding: 6px 17px;
+    border: 1px solid variaveis.$energyStyle4;
+    border-radius: 4px;
+  }
+  .botao_avancar:hover{
+    color: variaveis.$energyStyle2;
+    background-color: variaveis.$energyStyle4;
+  }

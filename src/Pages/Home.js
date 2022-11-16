@@ -20,7 +20,7 @@ const Home = () => {
         <Fragment>
             <div className="container_home">
                 <Header />            
-                <div data-aos="fade-up" className="Texto-home">
+                <div  className="Texto-home">
                     <h1>Bem-vindo a Intra Interiores!!!</h1>
                     <p>Sua casa com o seu jeito</p>
                 </div>
