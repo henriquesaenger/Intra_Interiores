@@ -5,6 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from "./Pages/Home";
+import Cadastro from "./Pages/Cadastro";
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/registro" element={<div></div>} />
+          <Route path="/registro" element={<Cadastro />} />
         </Routes>
       </div>
     </Router>
