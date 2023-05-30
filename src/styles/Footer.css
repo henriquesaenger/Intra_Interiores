@@ -16,7 +16,7 @@
 .first-column button {
   margin: 10px;
   border: none;
-  font-size: 17px;
+  font-size: 1.6em;
   color: #354F52;
   background-color: transparent;
   font-weight: bolder;
@@ -33,7 +33,7 @@
   text-decoration: none;
   margin: 10px;
   border: none;
-  font-size: 17px;
+  font-size: 1.6em;
   color: #354F52;
   background-color: transparent;
   font-weight: bolder;

@@ -27,7 +27,7 @@ const Industrial = () => {
                     <img src={brick_wall} alt="parede sem revestimento" />
                 </div>
                 <div className="industrial-card">
-                    <p>Paleta de cores mais neutra</p>
+                    <p>Paleta de cores mais neutra</p> 
                     <div className="paleta">
                     </div>
 

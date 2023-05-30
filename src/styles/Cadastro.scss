@@ -1,0 +1,22 @@
+@use "../Variaveis/Variaveis.scss" as variaveis;
+
+
+
+.container-cadastro{
+    background-image: variaveis.$interior_agendamento;
+    min-height: 100vh; 
+    @include variaveis.backgroundimagefade("imgbottom");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-cadastro{
+    width: 80%;
+    height: fit-content;
+    padding: 30px;
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    align-self: center;
+}

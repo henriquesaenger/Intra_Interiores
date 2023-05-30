@@ -76,18 +76,6 @@
     pointer-events: none;
   }
 
-
   .botao_avancar{
-    color: variaveis.$energyStyle4;
-    background-color: variaveis.$energyStyle2;
-    font-size: variaveis.$tamanho;
-    height: 36px;
-    font-weight: bolder;
-    padding: 6px 17px;
-    border: 1px solid variaveis.$energyStyle4;
-    border-radius: 4px;
-  }
-  .botao_avancar:hover{
-    color: variaveis.$energyStyle2;
-    background-color: variaveis.$energyStyle4;
+    @include variaveis.button_pattern();
   }

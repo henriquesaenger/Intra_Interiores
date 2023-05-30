@@ -15,21 +15,19 @@
   background-position: center center;
   -webkit-mask-image: linear-gradient(black, 90%, transparent);
   mask-image: linear-gradient(black, 90%, transparent);
-  min-height: 1000px;
+  min-height: 100vh;
   justify-content: center;
   color: #CAD2C5;
   text-shadow: #1E1E2C 2px 2px;
 }
 .Texto-home p {
-  font-size: 17px;
+  font-size: 1.6em;
   font-weight: bold;
 }
 
 .vantagens {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  min-height: 800px;
   background-image: url("../imagens/design-interior2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,7 +39,7 @@
 .industrial {
   display: flex;
   flex-direction: column;
-  min-height: 800px;
+  min-height: 90vh;
   background-image: url("../imagens/design-interior3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -57,5 +55,5 @@
   background-position: center center;
   -webkit-mask-image: linear-gradient(to top, black, 90%, transparent);
   mask-image: linear-gradient(to top, black, 90%, transparent);
-  min-height: 800px;
+  min-height: 60vh;
 }/*# sourceMappingURL=Home.css.map */

@@ -16,11 +16,14 @@ $energyStyle1: #CAD2C5;
 $energyStyle2: #84A98C;
 $energyStyle3: #52796F;
 $energyStyle4: #354F52;
+$sacramento:  #043927;
+
 
 /// FONTS
 
 $logo: "Dancing Script", sans-serif;
-$tamanho: 17px;
+$tamanho: 1.6em;
+$tamanhoh1: 3em;
 
 
 
@@ -44,5 +47,22 @@ $tamanho: 17px;
         mask-image: linear-gradient(to top, transparent, black, 95%, transparent);
         
     }
-    
+}
+
+/// Style for button
+
+@mixin button_pattern(){
+    color: variaveis.$energyStyle4;
+    background-color: variaveis.$energyStyle2;
+    font-size: variaveis.$tamanho;
+    height: 36px;
+    font-weight: bolder;
+    padding: 6px 17px;
+    border: 1px solid variaveis.$energyStyle4;
+    border-radius: 4px;
+
+    :hover{
+        color: variaveis.$energyStyle2;
+        background-color: variaveis.$energyStyle4;
+    }
 }

@@ -1,13 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
-.caixa-urban-jungle {
+.vantagens-desk {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
   margin-top: 100px;
-  width: 18%;
+  min-height: 95vh;
+  margin-bottom: 200px;
   color: #CAD2C5;
   text-shadow: #1E1E2C 2px 2px;
 }
-.caixa-urban-jungle p {
+@media screen and (max-width: 900px) {
+  .vantagens-desk {
+    display: none;
+  }
+}
+
+.caixa-urban-jungle {
+  width: 25%;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 1.6em;
+  border-bottom: 3px solid #CAD2C5;
+}
+.caixa-urban-jungle h1 {
+  font-size: 1.6em;
+}
+@media screen and (max-width: 900px) {
+  .caixa-urban-jungle {
+    width: 90%;
+  }
+}
+
+.vantagens-mobile {
+  display: none;
+  margin-bottom: 10rem;
+}
+@media screen and (max-width: 900px) {
+  .vantagens-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vantagens-mobile button {
+    font-size: 2em;
+    font-weight: bolder;
+    background-color: transparent;
+    color: #043927;
+    font-size: 1.6em;
+    border: none;
+    margin-bottom: 50px;
+  }
+  .vantagens-mobile p {
+    display: none;
+    color: white;
+    font-size: 1.0666666667em;
+  }
 }/*# sourceMappingURL=Vantagens.css.map */

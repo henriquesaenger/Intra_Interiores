@@ -1,14 +1,58 @@
 @use "../Variaveis/Variaveis.scss" as variaveis;
 
-.caixa-urban-jungle{
+
+.vantagens-desk{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin-top: 100px;
-    width: 18%;
+    min-height: 95vh;
+    margin-bottom: 200px;
     color: variaveis.$energyStyle1;
     text-shadow: variaveis.$black 2px 2px;
-    p{
-        font-weight: bold;
-        font-size: variaveis.$tamanho;
+    @media screen and (max-width: 900px){
+        display: none;
+    }
+}
+.caixa-urban-jungle{
+    width: 25%;  
+    font-weight: bold;
+    font-size: variaveis.$tamanho;
+    border-bottom: 3px solid variaveis.$energyStyle1;
+   h1{
+    font-size: variaveis.$tamanho;
+   }   
+   @media screen and (max-width: 900px){
+    width: 90%;
+   }
+}
+
+.vantagens-mobile{
+    display: none;
+    margin-bottom: 10rem;
+
+    
+    
+    @media screen and (max-width: 900px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        button{
+            font-size: 2em;
+            font-weight: bolder;
+            background-color: transparent;
+            color: variaveis.$sacramento;
+            font-size: variaveis.$tamanho;
+            border: none;
+            margin-bottom: 50px;
+        }
+
+
+        p{
+            display: none;
+            color: variaveis.$white;
+            font-size: variaveis.$tamanho/1.5;
+        }
     }
 }

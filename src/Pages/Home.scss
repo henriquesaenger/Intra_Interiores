@@ -18,7 +18,7 @@
     flex-direction: column;
     background-image: variaveis.$interior;
     @include variaveis.backgroundimagefade("imgbottom");
-    min-height: 1000px;
+    min-height: 100vh;
     justify-content: center;
     color: variaveis.$energyStyle1;
     text-shadow: variaveis.$black 2px 2px;
@@ -31,16 +31,15 @@
   .vantagens{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    min-height: 800px;
     background-image: variaveis.$interior_Urban_Jungle;
     @include variaveis.backgroundimagefade("imgboth");
+    
 }
 
 .industrial{
   display: flex;
   flex-direction: column;
-  min-height: 800px;
+  min-height: 90vh;
   background-image: variaveis.$interior_industrial;
   @include variaveis.backgroundimagefade("imgboth");
   
@@ -49,5 +48,5 @@
 .agendamento{
   background-image: variaveis.$interior_agendamento;
   @include variaveis.backgroundimagefade("imgtop");
-  min-height: 800px;
+  min-height: 60vh;
 }

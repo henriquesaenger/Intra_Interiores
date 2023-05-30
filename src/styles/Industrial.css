@@ -8,7 +8,7 @@
   text-shadow: #1E1E2C 2px 2px;
 }
 .caixa-texto-industrial p {
-  font-size: 17px;
+  font-size: 1.6em;
   font-weight: bold;
 }
 
@@ -29,7 +29,7 @@
   margin: 30px;
 }
 .industrial-card p {
-  font-size: 17px;
+  font-size: 1.6em;
   font-weight: bold;
   color: #CAD2C5;
   text-align: center;
@@ -44,8 +44,7 @@
 .paleta {
   height: 75%;
   width: 75%;
-  align-self: center;
-  -webkit-animation: bgcolorchange 10s infinite; /* Chrome, Safari, Opera */
+  align-self: center; /* Chrome, Safari, Opera */
   animation: 10s infinite bgcolorchange;
   border-radius: 8px;
   margin: 20px;
@@ -68,20 +67,8 @@
     background-color: #211d1a;
   }
 }
-@-webkit-keyframes bgcolorchange {
-  0% {
-    background: #d9d6cd;
-  }
-  25% {
-    background: #7b7b7b;
-  }
-  50% {
-    background: #95431e;
-  }
-  75% {
-    background: #4d565b;
-  }
-  100% {
-    background: #211d1a;
+@media screen and (max-width: 900px) {
+  .caixa-texto-industrial p {
+    font-size: 1.0666666667em;
   }
 }/*# sourceMappingURL=Industrial.css.map */
