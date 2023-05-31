@@ -6,9 +6,9 @@ import brick_wall from "../imagens/empty-red-brick-wall.jpg"
 
 const Industrial = () => {
 
-
+ 
     return(
-        <div>
+        <div className="industrial-box">
             <div className="caixa-texto-industrial">
             <h1>Estilo Industrial</h1>
             <p>Um estilo rústico que na maioria das vezes lembra fábricas antigas e vem sendo tendência nos últimos tempos, principalmente quando se trata de 

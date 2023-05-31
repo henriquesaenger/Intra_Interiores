@@ -17,13 +17,15 @@
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding-bottom: 10rem;
 }
 
 .industrial-card {
   display: flex;
   flex-direction: column;
   width: 225px;
-  height: 250px;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
   background-color: #52796F;
   border-radius: 8px;
   margin: 30px;
@@ -43,6 +45,7 @@
 
 .paleta {
   height: 75%;
+  min-height: 100px;
   width: 75%;
   align-self: center; /* Chrome, Safari, Opera */
   animation: 10s infinite bgcolorchange;
@@ -70,5 +73,9 @@
 @media screen and (max-width: 900px) {
   .caixa-texto-industrial p {
     font-size: 1.0666666667em;
+  }
+  .industrial-box {
+    padding-bottom: 10rem;
+    margin-bottom: 10rem;
   }
 }/*# sourceMappingURL=Industrial.css.map */
