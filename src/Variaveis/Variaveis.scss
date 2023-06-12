@@ -52,17 +52,17 @@ $tamanhoh1: 3em;
 /// Style for button
 
 @mixin button_pattern(){
-    color: variaveis.$energyStyle4;
-    background-color: variaveis.$energyStyle2;
-    font-size: variaveis.$tamanho;
+    color: $energyStyle4;
+    background-color: $energyStyle2;
+    font-size: $tamanho;
     height: 36px;
     font-weight: bolder;
     padding: 6px 17px;
-    border: 1px solid variaveis.$energyStyle4;
+    border: 1px solid $energyStyle4;
     border-radius: 4px;
 
     :hover{
-        color: variaveis.$energyStyle2;
-        background-color: variaveis.$energyStyle4;
+        color: $energyStyle2;
+        background-color: $energyStyle4;
     }
 }

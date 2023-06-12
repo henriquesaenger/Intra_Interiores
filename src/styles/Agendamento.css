@@ -17,7 +17,7 @@
 
 .did-floating-label {
   color: #52796F;
-  font-size: 17px;
+  font-size: 1.6em;
   border-radius: 6px;
   font-weight: normal;
   position: absolute;
@@ -31,7 +31,7 @@
 }
 
 .did-floating-input {
-  font-size: 17px;
+  font-size: 1.6em;
   display: block;
   width: 70%;
   height: 36px;
@@ -42,20 +42,15 @@
   border-radius: 4px;
   box-sizing: border-box;
 }
-.did-floating-input:focus {
+.did-floating-input :focus {
   outline: none;
 }
-.did-floating-input:focus ~ .did-floating-label {
+.did-floating-input :focus ~ .did-floating-label {
   top: -8px;
   font-size: 13px;
 }
 
 .did-floating-input:not(:-moz-placeholder-shown) ~ .did-floating-label {
-  top: -8px;
-  font-size: 13px;
-}
-
-.did-floating-input:not(:-ms-input-placeholder) ~ .did-floating-label {
   top: -8px;
   font-size: 13px;
 }
@@ -89,15 +84,32 @@
 .botao_avancar {
   color: #354F52;
   background-color: #84A98C;
-  font-size: 17px;
+  font-size: 1.6em;
   height: 36px;
   font-weight: bolder;
   padding: 6px 17px;
   border: 1px solid #354F52;
   border-radius: 4px;
 }
-
-.botao_avancar:hover {
+.botao_avancar :hover {
   color: #84A98C;
   background-color: #354F52;
+}
+
+@media screen and (max-width: 900px) {
+  .container-form {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .did-floating-label-content {
+    width: 100%;
+    text-align: -webkit-center;
+  }
+  .did-floating-label {
+    left: 18%;
+  }
+  .botao_avancar {
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=Agendamento.css.map */

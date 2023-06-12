@@ -25,7 +25,7 @@
     font-weight:normal;
     position:absolute;
     pointer-events:none;
-    left:15px;
+    left: 15px;
     padding:0 10px;
     background: variaveis.$energyStyle1;
     transition:0.2s ease all; 
@@ -43,7 +43,7 @@
     border: 1px solid variaveis.$energyStyle4;
     border-radius: 4px;
     box-sizing: border-box;
-    &:focus{
+    & :focus{
       outline:none;
       ~ .did-floating-label{
         top:-8px;
@@ -76,16 +76,28 @@
     pointer-events: none;
   }
 
+ 
+
   .botao_avancar{
     @include variaveis.button_pattern();
   }
   
-  @media screen and (max-width: 900px){
-    .container-section-form{
-      flex-direction: column;
-    }
+   @media screen and (max-width: 900px){
+    
     .container-form{ 
       width: 100%;
       flex-direction: column;
+      align-items: center;
+    }
+    .did-floating-label-content{
+      width: 100%;
+      text-align: -webkit-center;
+    }
+    .did-floating-label{
+      left: 18%;
+    }
+    .botao_avancar{
+      margin-bottom: 20px;
     }
   }
+  
